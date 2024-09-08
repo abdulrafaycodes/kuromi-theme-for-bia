@@ -15,15 +15,16 @@
             {
                 "label": "Kuromi Theme for Bia",
                 "uiTheme": "vs-dark",
-                "path": "./themes/kuromi-theme-for-bia-color-theme.json"
+                "path": "./kuromi-theme-for-bia-color-theme.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/abdulrafaycodes/Kuromi.git"
+        "url": "https://github.com/abdulrafaycodes/kuromi-theme-for-bia.git"
     },
     "dependencies": {
         "kuromi-theme-for-bia": "file:"
-    }
+    },
+    "icon": "images/icon.png"
 }
