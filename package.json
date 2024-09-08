@@ -1,0 +1,29 @@
+{
+    "name": "kuromi-theme-for-bia",
+    "displayName": "Kuromi Theme for Bia",
+    "description": "A Kuromi themed VS Code with shades of love, created for the most special woman to walk this planet Bia <3. This theme is dedicated to the lifesize Kuromi, a badass from outside but a literal girly from inside.",
+    "version": "0.0.1",
+    "publisher": "fay",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kuromi Theme for Bia",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kuromi-theme-for-bia-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abdulrafaycodes/Kuromi.git"
+    },
+    "dependencies": {
+        "kuromi-theme-for-bia": "file:"
+    }
+}
