@@ -2,40 +2,40 @@
     "name": "Kuromi Theme for Bia",
     "type": "dark",
     "colors": {
-        "editor.background": "#221D24",
+        "editor.background": "#231927",
         "editor.foreground": "#cac5ed",
-        "editorLineNumber.foreground": "#514283",
+        "editorLineNumber.foreground": "#6d4adf",
         "editorCursor.foreground": "#E77ED0",
-        "editor.selectionBackground": "#434144",
+        "editor.selectionBackground": "#645080",
         "editor.inactiveSelectionBackground": "#434144AA",
         "editor.lineHighlightBackground": "#434144",
         "editor.findMatchHighlightBackground": "#E77ED0AA",
         "editorBracketMatch.border": "#914186",
         "editorWhitespace.foreground": "#51428355",
-        "activityBar.background": "#2A242C",
+        "activityBar.background": "#514283",
         "activityBar.foreground": "#cac5ed",
         "activityBar.activeBackground": "#434144",
         "activityBar.activeBorder": "#E77ED0",
-        "sideBar.background": "#2D2730",
+        "sideBar.background": "#2b1f30",
         "sideBar.foreground": "#cac5ed",
         "sideBarTitle.foreground": "#E77ED0",
         "sideBarSectionHeader.background": "#3C353D",
-        "statusBar.background": "#281F29",
+        "statusBar.background": "#514283",
         "statusBar.foreground": "#cac5ed",
         "statusBar.debuggingBackground": "#914186",
         "statusBar.noFolderBackground": "#2D2730",
         "titleBar.activeBackground": "#281F29",
         "titleBar.inactiveBackground": "#2A242C",
         "titleBar.activeForeground": "#cac5ed",
-        "tab.activeBackground": "#2A242C",
-        "tab.inactiveBackground": "#3C353D",
+        "tab.activeBackground": "#372741",
+        "tab.inactiveBackground": "#473253",
         "tab.border": "#434144"
     },
     "tokenColors": [
         {
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "foreground": "#514283",
+                "foreground": "#8470c4",
                 "fontStyle": "italic"
             }
         },
@@ -54,7 +54,7 @@
         {
             "scope": ["keyword", "storage.type"],
             "settings": {
-                "foreground": "#914186",
+                "foreground": "#9b92da",
                 "fontStyle": "bold"
             }
         },
@@ -73,7 +73,7 @@
         {
             "scope": ["constant.numeric", "constant.language"],
             "settings": {
-                "foreground": "#ed1ddf4"
+                "foreground": "#ed1ddf3d"
             }
         },
         {
@@ -91,7 +91,7 @@
         {
             "scope": ["punctuation.definition.tag", "punctuation.definition.string"],
             "settings": {
-                "foreground": "#514283"
+                "foreground": "#6d4adf"
             }
         },
         {
@@ -103,7 +103,7 @@
         {
             "scope": ["invalid", "invalid.deprecated"],
             "settings": {
-                "foreground": "#E77ED0",
+                "foreground": "#ff3333",
                 "background": "#434144"
             }
         },
@@ -120,6 +120,66 @@
                 "foreground": "#cac5ed",
                 "fontStyle": "italic"
             }
-        }
+        },
+        {
+            "scope": ["entity.name.class", "entity.name.type.class"],
+            "settings": {
+                "foreground": "#914186"  // Dark purple for classes
+            }
+        },
+        {
+            "scope": ["entity.name.type", "support.class"],
+            "settings": {
+                "foreground": "#E77ED0"  // Bright pink for types and interfaces
+            }
+        },
+        {
+            "scope": ["storage.type.function", "entity.name.function"],
+            "settings": {
+                "foreground": "#f0c3e2"  // Light purple for function declarations
+            }
+        },
+        {
+            "scope": ["variable.other.constant", "variable.other.enummember"], 
+            "settings": {
+                "foreground": "#cac5ed" // Light lavender for constants and enum members
+            }
+        },
+        {
+            "scope": ["support.function.builtin", "support.function.magic"], 
+            "settings": {
+                "foreground": "#6d4adf" // Bright pink for built-in functions (e.g., Python's built-ins)
+            }
+        },
+        {
+            "scope": ["support.constant.property-value", "constant.language.boolean", "constant.language.null"],
+            "settings": {
+                "foreground": "#ed1ddf3d" // Bright pinkish-red for boolean, null, and other constants
+            }
+        },
+        {
+            "scope": ["meta.function-call.python", "meta.function-call.generic"], 
+            "settings": {
+                "foreground": "#f0c3e2" // Light purple for Python function calls
+            }
+        },
+        {
+            "scope": ["entity.name.type.class.python", "meta.class.python"],
+            "settings": {
+                "foreground": "#914186" // Dark purple for Python class names
+            }
+        },
+        {
+            "scope": ["meta.import.python", "keyword.control.import"],
+            "settings": {
+                "foreground": "#6d4adf" // Bluish-purple for import statements
+            }
+        },
+        {
+            "scope": ["entity.name.type.module", "support.module.python"], 
+            "settings": {
+                "foreground": "#cac5ed" // Light lavender for module names in import statements
+            }
+        }        
     ]
 }
